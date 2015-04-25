@@ -4,6 +4,9 @@
 
 using namespace std;
 
+int mult(int a ,int b) {
+	return a*b;
+}
 
 int sum(int a,int b) {
 	return a+b;
@@ -16,6 +19,8 @@ int main() {
 	int result = sum(i,j);
 
 	cout<<"Result:"<<result<<endl;
+
+	cout<<"Multiply : "<<mult(i,j)<<endl;
 
 	return 0;
 
